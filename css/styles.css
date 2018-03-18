@@ -3,11 +3,31 @@ header {
   color: #1F2041; }
   header h1 {
     text-align: center; }
+    header h1 span {
+      color: #F25F5C; }
 
 .nav-wrapper {
   background: #F25F5C; }
   .nav-wrapper .brand-logo {
     margin-left: 10px;
     text-transform: uppercase; }
+
+/* Form Styles */
+.login-container {
+  margin-top: 5%;
+  border-radius: 5px; }
+  .login-container h1 {
+    color: #3F88C5;
+    text-align: center; }
+  .login-container form button {
+    margin-top: 3%; }
+  .login-container form .user {
+    margin-left: 0px; }
+  .login-container form .pass {
+    margin-left: 0px; }
+  .login-container form .login {
+    background: #3F88C5; }
+  .login-container form .register {
+    background: #3F88C5; }
 
 /*# sourceMappingURL=styles.css.map */
