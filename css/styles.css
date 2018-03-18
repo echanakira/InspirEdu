@@ -1,0 +1,13 @@
+header {
+  padding: .5px;
+  color: #1F2041; }
+  header h1 {
+    text-align: center; }
+
+.nav-wrapper {
+  background: #F25F5C; }
+  .nav-wrapper .brand-logo {
+    margin-left: 10px;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=styles.css.map */

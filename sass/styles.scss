@@ -1,0 +1,18 @@
+@import 'colors';
+
+
+header{
+  padding: .5px;
+  color: $sec;
+  h1{
+    text-align: center;
+  }
+}
+
+.nav-wrapper{
+  background: $ter;
+  .brand-logo{
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+}
