@@ -1,4 +1,7 @@
 /* Pallete */
+body {
+  font-family: 'Quicksand'; }
+
 header {
   padding: .5px;
   color: white;

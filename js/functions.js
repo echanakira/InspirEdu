@@ -1,11 +1,17 @@
-
-//console.dir(document);
+//Global Variables
 var courseContainer = document.querySelector(".course-container");
 var courseList = courseContainer.getElementsByClassName("course-box");
-addCourse();
+
+//Instance Methods
+$(document).ready(function(){
+  $(".button-collapse").sideNav();
+});
+
+
+function main(){
+  addCourse();
+}
 
 function addCourse(){
-  for(i = 0; i < 3; i++){
-    courseContainer.appendChild(courseList[i].cloneNode(true));
-  }
+    courseContainer.appendChild(courseList[1].cloneNode(true));
 }

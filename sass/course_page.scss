@@ -1,4 +1,6 @@
 @import 'styling';
+
+/* Standard Header Styles */
 body{
   font-family: 'Quicksand';
 }
@@ -27,35 +29,5 @@ header{
   background: $ter;
   .brand-logo{
     margin-left: 10px;
-    text-transform: uppercase;
-  }
-}
-
-/* Form Styles */
-.login-container{
-  margin-top: 5%;
-  border-radius: 5px;
-
-  h1{
-    color: $prim;
-    text-align: center;
-  }
-
-  form{
-    button{
-      margin-top: 3%;
-    }
-    .user{
-      margin-left: 0px;
-    }
-    .pass{
-      margin-left: 0px;
-    }
-    .login{
-      background: $prim;
-    }
-    .register{
-      background: $prim;
-    }
   }
 }

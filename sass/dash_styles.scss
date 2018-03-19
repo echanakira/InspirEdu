@@ -1,5 +1,10 @@
 @import 'styling';
 
+
+body{
+  font-family: 'Quicksand';
+
+}
 /* Standard Header Styles */
 header{
   padding: .5px;
@@ -30,12 +35,23 @@ header{
 
 /* Dashboard Courses*/
 .welcome{
+  color: #262626;
+  padding-left: 8%;
+  font-family: 'Julius Sans One', 'Quicksand', san-serif;
+  font-size: 35px;
+  span{
+    border-bottom: 1px solid silver;
+  }
 }
 .course-container{
+  font-family: 'Quicksand', san-serif;
+  font-size: 18px;
+
   .course-box{
     border-radius: 5px;
     margin-bottom: 5%;
     img{
+      margin-top: 5%;
       height: 20vh;
       width: 100%;
     }
@@ -43,8 +59,11 @@ header{
       background: $green;
     }
     .course-name{
-      color: $green;
+      color: $purple;
       margin-left: 2%;
+      &:hover{
+        text-decoration: underline;
+      }
     }
     .current-assignment{
       margin-left: 2%;

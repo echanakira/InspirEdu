@@ -1,4 +1,7 @@
 /* Pallete */
+body {
+  font-family: 'Quicksand'; }
+
 /* Standard Header Styles */
 header {
   padding: .5px;
@@ -21,18 +24,32 @@ header {
     margin-left: 10px; }
 
 /* Dashboard Courses*/
-.course-container .course-box {
-  border-radius: 5px;
-  margin-bottom: 5%; }
-  .course-container .course-box img {
-    height: 20vh;
-    width: 100%; }
-  .course-container .course-box .course-color {
-    background: #0CCE6B; }
-  .course-container .course-box .course-name {
-    color: #0CCE6B;
-    margin-left: 2%; }
-  .course-container .course-box .current-assignment {
-    margin-left: 2%; }
+.welcome {
+  color: #262626;
+  padding-left: 8%;
+  font-family: 'Julius Sans One', 'Quicksand', san-serif;
+  font-size: 35px; }
+  .welcome span {
+    border-bottom: 1px solid silver; }
+
+.course-container {
+  font-family: 'Quicksand', san-serif;
+  font-size: 18px; }
+  .course-container .course-box {
+    border-radius: 5px;
+    margin-bottom: 5%; }
+    .course-container .course-box img {
+      margin-top: 5%;
+      height: 20vh;
+      width: 100%; }
+    .course-container .course-box .course-color {
+      background: #0CCE6B; }
+    .course-container .course-box .course-name {
+      color: #5F50CE;
+      margin-left: 2%; }
+      .course-container .course-box .course-name:hover {
+        text-decoration: underline; }
+    .course-container .course-box .current-assignment {
+      margin-left: 2%; }
 
 /*# sourceMappingURL=dash-styles.css.map */

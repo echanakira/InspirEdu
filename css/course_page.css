@@ -1,0 +1,26 @@
+/* Pallete */
+/* Standard Header Styles */
+body {
+  font-family: 'Quicksand'; }
+
+header {
+  padding: .5px;
+  color: white;
+  background: #009FFD; }
+  header ::selection {
+    background: white;
+    color: #F25F5C; }
+  header h1 {
+    text-align: center; }
+    header h1 span {
+      color: #F25F5C; }
+      header h1 span ::selection {
+        background: #F25F5C;
+        color: white; }
+
+.nav-wrapper {
+  background: #F25F5C; }
+  .nav-wrapper .brand-logo {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=course_page.css.map */
