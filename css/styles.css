@@ -1,10 +1,18 @@
+/* Pallete */
 header {
   padding: .5px;
-  color: #1F2041; }
+  color: white;
+  background: #009FFD; }
+  header ::selection {
+    background: white;
+    color: #F25F5C; }
   header h1 {
     text-align: center; }
     header h1 span {
       color: #F25F5C; }
+      header h1 span ::selection {
+        background: #F25F5C;
+        color: white; }
 
 .nav-wrapper {
   background: #F25F5C; }
@@ -17,7 +25,7 @@ header {
   margin-top: 5%;
   border-radius: 5px; }
   .login-container h1 {
-    color: #3F88C5;
+    color: #009FFD;
     text-align: center; }
   .login-container form button {
     margin-top: 3%; }
@@ -26,8 +34,8 @@ header {
   .login-container form .pass {
     margin-left: 0px; }
   .login-container form .login {
-    background: #3F88C5; }
+    background: #009FFD; }
   .login-container form .register {
-    background: #3F88C5; }
+    background: #009FFD; }
 
 /*# sourceMappingURL=styles.css.map */
