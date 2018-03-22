@@ -7,7 +7,8 @@ $(document).ready(function(){
   $(".button-collapse").sideNav();
 });
 
-
+userTextField = document.getElementById('pass');
+Materialize.updateTextField(userTextField);
 function main(){
   addCourse();
 }

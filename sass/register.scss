@@ -1,0 +1,65 @@
+@import 'styling';
+/* Pallete */
+body{
+  font-family: 'Quicksand';
+}
+
+header{
+  padding: .5px;
+  color: white;
+  ::selection{
+    background: white;
+    color: $ter;
+  }
+  background: $prim;
+  h1{
+    text-align: center;
+    span{
+      color: $ter;
+      ::selection{
+        background: $ter;
+        color: white;
+      }
+    }
+  }
+}
+
+.nav-wrapper{
+  background: $ter;
+  .brand-logo{
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+}
+
+/* Form Styles */
+.login-container {
+  margin-top: 5%;
+  border-radius: 5px;
+  .input-field input[type=text]:focus {
+     border-bottom: 1px solid $prim;
+     box-shadow: 0 1px 0 0 $prim;
+   }
+   .input-field input[type=text]:focus + label {
+   color: $prim;
+}
+
+  h1{
+    color: $prim;
+    text-align: center;
+  }
+  #name-container{
+    margin-top: 5%;
+  }
+  .input-field{
+    margin-left: 2%;
+  }
+  .btn{
+    margin-bottom: 5%;
+    background: $prim;
+  }
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
